@@ -13,7 +13,7 @@ const CorsOptions = {
 app.use(cors(CorsOptions));
 
 //adding route for home page
-app.get('/', (req, res) => {
+app.get('/app', (req, res) => {
   res.send('<center><h2><b>Hi, This is HEPG Server.<br><i> How can i help you ;)</i></b></h2></center>');
 });
 
